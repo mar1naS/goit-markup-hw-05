@@ -634,8 +634,8 @@ overflow: hidden;
   line-height: 1.6;
   letter-spacing: 0.03em;
 
-  overflow: scroll;
-  transform: translate(0,100%);
+  transform: translate(0,101%);
+  transition: transform 500ms linear;
 
   color: var(--primary-bg-color);
   background-color: rgba(33, 150, 243, 0.9);
@@ -651,6 +651,11 @@ overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.examples-link:hover .overlay,
+.examples-link:focus .overlay {
+  transform: translate(0,0);
 }
 
 .list .name {
