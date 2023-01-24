@@ -357,6 +357,8 @@ header {
 
 .section-list .social-icon {
   fill: currentColor;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-list .social-link:hover,
@@ -403,6 +405,8 @@ header {
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list .link-company:hover,
@@ -704,6 +708,8 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact .info {
@@ -714,6 +720,8 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact .info:hover,
@@ -801,12 +809,6 @@ footer {
 
 /*--Modal Window--*/
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 .backdrop {
   position: fixed;
   width: 100%;
@@ -817,6 +819,12 @@ footer {
   z-index: 100;
 
   transition: opacity 250ms linear, visability 250ms linear;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .modal {
@@ -831,6 +839,8 @@ footer {
   background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  transition: opacity 250ms linear, visability 250ms linear;
 }
 
 .modal-close-button {
