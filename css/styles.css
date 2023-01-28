@@ -827,6 +827,10 @@ footer {
   pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+  transform: opacity 250ms linear, visability 250ms linear;
+}
+
 .modal {
   position: absolute;
   top: 50%;
