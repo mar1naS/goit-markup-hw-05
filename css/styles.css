@@ -409,6 +409,13 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.button-icon {
+  fill: currentColor;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .clients-list .link-company:hover,
 .clients-list .link-company:focus {
   color: var(--accent-color);
@@ -416,10 +423,6 @@ header {
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-icon {
-  fill: currentColor;
 }
 
 .clients-list .link-company:hover .button-icon,
@@ -818,7 +821,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
 
-  transition: opacity 250ms linear, visability 250ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .backdrop.is-hidden {
@@ -828,7 +831,7 @@ footer {
 }
 
 .backdrop.is-hidden .modal {
-  transform: opacity 250ms linear, visability 250ms linear;
+  transform: opacity 250ms linear, visibility 250ms linear;
 }
 
 .modal {
@@ -844,7 +847,7 @@ footer {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transition: opacity 250ms linear, visability 250ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .modal-close-button {
