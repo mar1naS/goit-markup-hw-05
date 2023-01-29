@@ -114,13 +114,15 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .current {
@@ -166,14 +168,16 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-icon {
@@ -353,6 +357,9 @@ header {
   color: rgba(175, 177, 184, 1);
   background-color: var(--primary-bg-color);
   border-radius: 50%;
+  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-list .social-icon {
@@ -366,8 +373,6 @@ header {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-list .social-link:hover .social-icon,
@@ -459,14 +464,16 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.primary:focus,
 .button.primary:hover {
   background-color: #188ce8;
   align-items: center;
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.secondary {
   padding: 6px 25px;
@@ -475,6 +482,9 @@ button {
 
   background-color: var(--btn-bck-color);
   color: var(--secondary-text-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.secondary:hover,
@@ -484,8 +494,6 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Forms*/
@@ -614,6 +622,9 @@ background-color: teal;
 .examples .link {
   display: block;
   text-decoration: none;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples .link:hover,
@@ -621,8 +632,6 @@ background-color: teal;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-wrapper {
