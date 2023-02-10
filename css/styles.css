@@ -854,6 +854,8 @@ footer {
   border-radius: 4px;
 
   transition: opacity 250ms linear, visibility 250ms linear;
+
+  padding: 40px;
 }
 
 .modal-close-button {
